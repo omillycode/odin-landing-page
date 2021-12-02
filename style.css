@@ -39,7 +39,6 @@ img {
 
 .four-images {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .logo-text {
