@@ -19,7 +19,7 @@ li {
 .header {
     margin: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
@@ -37,8 +37,15 @@ li {
     flex-direction: column;
 }
 
+.top-subtext {
+    color: #E5E7EB;
+}
 
-
+.Sign-Up {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
 
 img {
     max-width: 300px;
@@ -69,4 +76,5 @@ body {
 
 .top-main {
     display: flex;
+    justify-content: space-around;
 }
