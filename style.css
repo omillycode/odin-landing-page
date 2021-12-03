@@ -45,6 +45,9 @@ li {
     border: 0px;
     border-radius: 5px;
     background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 8px 30px;
+    font-size: 16px;
 }
 
 img {
