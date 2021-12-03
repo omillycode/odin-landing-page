@@ -55,8 +55,26 @@ img {
     max-height: 300px;
 }
 
+.top-image {
+    padding: 10px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .four-images {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 
 .logo-text {
