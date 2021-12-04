@@ -72,7 +72,6 @@ img {
 .four-images {
     display: flex;
     justify-content: center;
-    gap: 20px;
 }
 
 .illustration-text {
@@ -93,6 +92,7 @@ img {
 .second-main {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -112,4 +112,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
 }
