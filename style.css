@@ -36,6 +36,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 60px;
+    max-width: 500px;
 }
 
 .top-subtext {
@@ -80,7 +81,7 @@ img {
 .image-one, .image-two, .image-three, .image-four {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
 }
 
 .logo-text {
