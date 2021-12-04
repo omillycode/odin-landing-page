@@ -119,6 +119,7 @@ body {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
 }
 .quote-author {
     font-weight: bold;
@@ -130,6 +131,28 @@ body {
     background-color: #3882F6;
     border-radius: 20px;
     display: flex;
-    flex-flow: column wrap;
-    margin: 30px;
+    margin: 100px;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.third-text {
+    padding-left: 30px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.subtext-third {
+    font-weight: normal;
+}
+
+.bottom-button {
+    align-self: center;
+}
+
+.footer {
+    color: #F9FAF8;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
